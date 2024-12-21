@@ -1,0 +1,43 @@
+ingong:
+  name: ingong
+  title: Front End Engineer @ Naver Webtoon
+  url: https://github.com/ingong
+  image_url: https://github.com/ingong.png
+  page: true
+  socials:
+    github: ingong
+    linkedin: ingong
+    blog: https://ingongh.github.io/
+
+kukucorn:
+  name: kukucorn
+  title: Back End Engineer @ Naver
+  url: https://github.com/kukucorn
+  image_url: https://github.com/kukucorn.png
+  page: true
+  socials:
+    github: kukucorn
+    linkedin: kukucorn
+    blog: https://kukucornh.github.io/
+
+harry:
+  name: harry
+  title: Front End Engineer @ Kakao Enterprise
+  url: https://github.com/haesoo-y
+  image_url: https://github.com/haesoo-y.png
+  page: true
+  socials:
+    github: haesoo-y
+    linkedin: haesoo-y
+    blog: https://haesoo-yh.github.io/
+
+hyeonmin:
+  name: hyeonmin
+  title: Front End Engineer @ Line Plus
+  url: https://github.com/rudy3091
+  image_url: https://github.com/rudy3091.png
+  page: true
+  socials:
+    github: rudy3091
+    linkedin: rudy3091
+    blog: https://rudy3091h.github.io/
