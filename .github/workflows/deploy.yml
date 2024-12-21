@@ -14,15 +14,13 @@ jobs:
         with:
           fetch-depth: 0
 
-      - uses: actions/setup-node@v4
-        with:
-          node-version: 18
-          cache: pnpm
-          cache-dependency-path: ./pnpm-lock.yaml
-          corepack: true # Corepack 활성화
+      - uses: pnpm/action-setup@v4
 
-      - name: Set pnpm version to 9.14.4
-        run: corepack prepare pnpm@9.14.4 --activate
+      - name: Install Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: "pnpm"
 
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
