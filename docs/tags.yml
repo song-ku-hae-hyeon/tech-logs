@@ -1,4 +1,4 @@
-docusaurus:
-  label: "Docusaurus"
-  permalink: "/docusaurus"
-  description: "Docs related to the Docusaurus framework"
+technical-writing:
+  label: "Technical Writing"
+  permalink: "/technical-writing"
+  description: "Docs related to the Technical Writing"
