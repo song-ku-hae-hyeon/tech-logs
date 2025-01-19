@@ -14,24 +14,24 @@ tags:
 
 명령형 동사는 일반적으로 능동태입니다. 이 경우 암시적으로 주어는 읽는 you를 가리킵니다.
 
-:::note[Example]
+```
 
 1. Open the configuration file.
 2. Set the `Frombus` variable to `False`.
 
-:::
+```
 
 ## Distinguish active voice from passive voice in complex sentences
 
 대부분의 경우에 수동태 문장을 능동태로 변환하면 문장이 더 명확해집니다.
 
-:::danger[before]
+```
+# Before
 성능이 사용자에 의해 측정되었습니다.
-:::
 
-:::tip[after]
+# After
 사용자가 성능을 측정했습니다.
-:::
+```
 
 ## active voice vs passive voice
 
@@ -41,17 +41,22 @@ tags:
 - 간결성: 불필요한 단어를 줄여서 간결하게 합니다.
 
 수동태를 사용해야할 경우도 있을까요? 우선 동작의 주체가 중요하지 않을 경우가 있습니다.
-:::note[example]
+
+```
 버그가 수정되었습니다.
-:::
+```
+
 위의 경우, 누가 버그를 수정했는지보다 수정되었다는 사실이 더 중요합니다. 다음은 주체가 불명확할 경우입니다.
-:::note[example]
+
+```
 오류가 발견되었습니다.
-:::
+```
+
 위의 경우, 누가 오류를 발견했는지 명시할 필요가 없거나 알 수 없습니다. 마지막으로 동작의 대상이 강조되어야할 경우입니다.
-:::note[example]
+
+```
 파일이 삭제되었습니다.
-:::
+```
 
 ## Wrap Up
 
