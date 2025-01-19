@@ -1,6 +1,6 @@
 ---
 title: Words
-description: This document provides guidelines on the effective use of words in technical writing.
+description: 기술 문서에서 적절한 단어와 약어를 사용하는 방식을 다룹니다.
 sidebar_position: 1
 tags:
   - technical-writing
