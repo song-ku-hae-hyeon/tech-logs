@@ -14,28 +14,29 @@ be 동사 형태를 제거하고 명확한 단어를 선택하세요. 이를 통
 
 'There is'를 제거하면 일반적인 주어를 더 나은 주어로 대체할 수 있습니다.
 
-```
-# Before
+:::danger[before]
 There is a variable called met_trick that stores the current accuracy.
+:::
 
-# After 01
+:::tip[after01]
 A variable named met_trick stores the current accuracy.
+:::
 
-# After 02
+:::tip[after02]
 The met_trick variable stores the current accuracy.
-```
+:::
 
 ## Minimize certain adjectives and adverbs (optional)
 
 형용사와 부사는 기술 문서를 읽는 독자에게 모호하고 주관적으로 느껴질 수 있습니다.
 
-```
-# Before
+:::danger[before]
 Setting this flag makes the application run screamingly fast.
+:::
 
-# After
+:::tip[after]
 Setting this flag makes the application run 225-250% faster.
-```
+:::
 
 기술 문서에서는 마케팅적인 용어보다는 사실적이고 객관적인 수치 정보를 제공하세요.
 
@@ -50,7 +51,3 @@ Setting this flag makes the application run 225-250% faster.
 ### Reference
 
 - [Words | Technical Writing | Google for Developers](https://developers.google.com/tech-writing/one/words)
-
-```
-
-```

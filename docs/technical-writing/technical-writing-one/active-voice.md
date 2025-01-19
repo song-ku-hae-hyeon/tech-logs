@@ -1,6 +1,6 @@
 ---
 title: Active Voice
-description: 기술 문서에서 능동태를 사용하는 이유를 설명합니다.
+description: 능동태를 사용하는 이유를 설명합니다.
 sidebar_position: 2
 tags:
   - technical-writing
@@ -15,23 +15,21 @@ tags:
 명령형 동사는 일반적으로 능동태입니다. 이 경우 암시적으로 주어는 읽는 you를 가리킵니다.
 
 ```
-
 1. Open the configuration file.
 2. Set the `Frombus` variable to `False`.
-
 ```
 
 ## Distinguish active voice from passive voice in complex sentences
 
 대부분의 경우에 수동태 문장을 능동태로 변환하면 문장이 더 명확해집니다.
 
-```
-# Before
+:::danger[before]
 성능이 사용자에 의해 측정되었습니다.
+:::
 
-# After
+:::tip[after]
 사용자가 성능을 측정했습니다.
-```
+:::
 
 ## active voice vs passive voice
 
