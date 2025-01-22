@@ -17,9 +17,9 @@ tags:
 
 한 번 정한 용어는 문서 전체에서 동일하게 사용되어야 합니다. 만약 긴 이름을 사용할 때 약어를 문서에서 사용한다면 아래와 같이 사용해보세요.
 
-```
+:::note[example]
 **Protocol Buffers** (or **protobufs** for short) provide their own definition language. Blah, blah, blah. And that's why protobufs have won so many county fairs.
-```
+:::
 
 처음에 약어를 지정하고 이후부터 약어만을 사용하고 있습니다.
 
@@ -27,9 +27,9 @@ tags:
 
 생소한 약어를 처음 사용할 때에는 전체 용어를 풀어 쓰고, 괄호 안에 넣습니다. 이 때, 전체 용어와 약어 모두를 굴게 표시하여야 합니다. 구 후에는 약어만 사용하도록 합니다. (번갈아서 사용하지 마세요.)
 
-```
+:::note[example]
 If no cache entry exists, the Mixer calls the **OttoGroup Server** (**OGS**) to fetch Ottos for the request. The OGS is a repository that holds all servable Ottos. The OGS is organized in a logical tree structure, with a root node and two levels of leaf nodes. The OGS root forwards the request to the leaves and collects the responses.
-```
+:::
 
 그렇다면 언제 약어를 사용하는 것이 좋을까요? 비교적 최근에 소개된 약어는 독자가 머릿속에서 변환과정을 거쳐야하므로 오히려 전체 용어보다 읽는 시간이 더 오래 걸릴 수 있습니다. 따라서 몇 번만 사용될 약어는 정의하지 않는 편이 좋습니다. 아래의 조건을 모두 충족시킬 경우에만 정의하세요:
 
