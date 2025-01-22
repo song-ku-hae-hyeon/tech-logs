@@ -10,32 +10,26 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: "Easy to Use",
-    Svg: require("@site/static/img/undraw_docusaurus_mountain.svg").default,
+    title: "Design Pattern",
+    Svg: require("@site/static/img/design-pattern.svg").default,
     description: (
-      <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
-      </>
+      <>22개의 디자인 패턴을 정리하고, 각 패턴별로 예제를 통해 학습합니다.</>
     ),
   },
   {
-    title: "Focus on What Matters",
-    Svg: require("@site/static/img/undraw_docusaurus_tree.svg").default,
+    title: "Technical Writing",
+    Svg: require("@site/static/img/technical-writing.svg").default,
     description: (
-      <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
-      </>
+      <>명확하고 이해하기 쉬운 기술 문서를 작성하는 방법에 대해 학습합니다.</>
     ),
   },
   {
-    title: "Powered by React",
-    Svg: require("@site/static/img/undraw_docusaurus_react.svg").default,
+    title: "Unit Test",
+    Svg: require("@site/static/img/unit-test.svg").default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        단위 테스트에 대한 기본기를 다지고, 올바른 테스트 케이스를 작성하는
+        방법을 학습합니다.
       </>
     ),
   },
