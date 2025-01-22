@@ -18,7 +18,7 @@ tags:
 한 번 정한 용어는 문서 전체에서 동일하게 사용되어야 합니다. 만약 긴 이름을 사용할 때 약어를 문서에서 사용한다면 아래와 같이 사용해보세요.
 
 ```
-**Protocol Buffers** (or **protobufs** for short) provide their own definition language. Blah, blah, blah. And that's why protobufs have won so many county fairs.
+**Protocol Buffers** (or **protobufs** for short) provide their own definition language. Blah, blah, blah. And that's why protobufs have won so many county fairs.
 ```
 
 처음에 약어를 지정하고 이후부터 약어만을 사용하고 있습니다.
