@@ -44,6 +44,22 @@ Google 지원 시스템 및 UX 연구에서는 다음과 같은 잘못된 오류
 - 명확하고 도움이 되는 오류 메시지를 작성하는 방법을 이해합니다.
 - 팀원의 오류 메시지를 리뷰할 수 있습니다.
 
+## General error handling rules
+
+오류 메시지 작성에 대해 알아보기 전에 몇 가지 일반적인 오류 처리 규칙에 대해 알아보겠습니다.
+
+### Don't fail silently
+
+### Follow the programming language guides
+
+### Implement the full error model
+
+### Avoid swallowing the root cause
+
+### Log the error codes
+
+### Raise errors immediately
+
 ## Wrap Up
 짧은 요약
 
