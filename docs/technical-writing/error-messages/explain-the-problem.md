@@ -12,21 +12,27 @@ tags:
 
 ### Examples
 
-오류 원인과 관련한 나쁜 예시와 좋은 예시를 비교해보겠습니다.
+디렉터리 권한 문제를 모호하게 설명하는 대신 디렉터리가 존재하지만 쓰기 권한이 없다는 것을 구체적으로 설명하는 예시입니다:
 
-👎 **Not recommended**
-> Bad directory.
+:::danger[Not recommended]
+Bad directory.
+:::
 
-👍 **Recommended**
-> The [Name of directory] directory exists but is not writable. To add files to this directory, the directory must be writable. [Explanation of how to make this directory writable.]
+:::tip[Recommended]
+The [Name of directory] directory exists but is not writable. To add files to this directory, the directory must be writable. [Explanation of how to make this directory writable.]
+:::
 
 <br />
 
-👎 **Not recommended**
-> Invalid field 'picture'.
+다음은 명령줄 입력 오류를 설명하는 예시입니다:
 
-👍 **Recommended**
-> The 'picture' field can only appear once on the command line; this command line contains the 'picture' field 2 times.
+:::danger[Not recommended]
+Invalid field 'picture'.
+:::
+
+:::tip[Recommended]
+The 'picture' field can only appear once on the command line; this command line contains the 'picture' field 2 times.
+:::
 
 ## Identify the user's invalid inputs
 
@@ -38,22 +44,28 @@ tags:
 
 ### Examples
 
-사용자 입력값과 관련된 오류 메시지의 나쁜 예시와 좋은 예시를 비교해보겠습니다.
+다음은 금융 거래 시스템에서 국가 간 송금 제한을 설명하는 예시입니다:
 
-👎 **Not recommended**
-> Funds can only be transferred to an account in the same country.
+:::danger[Not recommended]
+Funds can only be transferred to an account in the same country.
+:::
 
-👍 **Recommended**
-> You can only transfer funds to an account within the same country. Sender account's country (UK) does not match the recipient account's country (Canada).
+:::tip[Recommended]
+You can only transfer funds to an account within the same country. Sender account's country (UK) does not match the recipient account's country (Canada).
+:::
 
 <br />
 
-👎 **Not recommended**
-> Invalid postal code.
+다음은 우편번호 입력 오류를 설명하는 예시입니다:
 
-👍 **Recommended**
-> The postal code for the US must consist of either five or nine digits.   
-> The specified postal code (4872953) contained seven digits.
+:::danger[Not recommended]
+Invalid postal code.
+:::
+
+:::tip[Recommended]
+The postal code for the US must consist of either five or nine digits.   
+The specified postal code (4872953) contained seven digits.
+:::
 
 
 ## Specify requirements and constraints 
@@ -62,29 +74,40 @@ tags:
 사용자가 시스템의 한계를 알고 있다고 가정하지 마세요.
 
 ### Examples
-요구사항과 제약조건과 관련된 오류 메시지의 나쁜 예시와 좋은 예시를 비교해보겠습니다.
 
-👎 **Not recommended**
-> The combined size of the attachments is too big.
+다음은 파일 첨부 크기 제한을 설명하는 예시입니다:
 
-👍 **Recommended**
-> The combined size of the attachments (14MB) exceeds the allowed limit (10MB). [Details about possible solution.]
+:::danger[Not recommended]
+The combined size of the attachments is too big.
+:::
 
-<br />
-
-👎 **Not recommended**
-> Permission denied.
-
-👍 **Recommended**
-> Permission denied. Only users in the admin group have access. [Details about adding users to the group.]
+:::tip[Recommended]
+The combined size of the attachments (14MB) exceeds the allowed limit (10MB). [Details about possible solution.]
+:::
 
 <br />
 
-👎 **Not recommended**
-> Time-out period exceeded.
+다음은 권한 관련 오류를 설명하는 예시입니다:
 
-👍 **Recommended**
-> Time-out period (30s) exceeded. [Details about possible solution.]
+:::danger[Not recommended]
+Permission denied.
+:::
+
+:::tip[Recommended]
+Permission denied. Only users in the admin group have access. [Details about adding users to the group.]
+:::
+
+<br />
+
+다음은 시간 초과 오류를 설명하는 예시입니다:
+
+:::danger[Not recommended]
+Time-out period exceeded.
+:::
+
+:::tip[Recommended]
+Time-out period (30s) exceeded. [Details about possible solution.]
+:::
 
 
 ## Wrap up

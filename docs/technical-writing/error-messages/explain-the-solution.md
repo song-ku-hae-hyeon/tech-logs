@@ -13,11 +13,15 @@ tags:
 
 ### Examples
 
-👎 **Not recommended**
-> The client app on your device is no longer supported.
+다음은 앱 업데이트 필요성을 설명하는 예시입니다:
 
-👍 **Recommended**
-> The client app on your device is no longer supported. To update the client app, click the Update app button.
+:::danger[Not recommended]
+The client app on your device is no longer supported.
+:::
+
+:::tip[Recommended]
+The client app on your device is no longer supported. To update the client app, click the Update app button.
+:::
 
 <br />
 
@@ -28,48 +32,64 @@ tags:
 
 ### Examples
 
-👎 **Not recommended**
-> Invalid email address.
+다음은 잘못된 이메일 형식을 설명하는 예시입니다:
 
-👍 **Recommended**
-> The specified email address (robin) is missing an @ sign and a domain name. 
->
-> For example: robin@example.com.
+:::danger[Not recommended]
+Invalid email address.
+:::
 
-<br />
+:::tip[Recommended]
+The specified email address (robin) is missing an @ sign and a domain name. 
 
-👎 **Not recommended**
-> Invalid input.
-
-👍 **Recommended**
-> Enter the pathname of a Windows executable file. An executable file ordinarily ends with the .exe suffix. 
->
-> For example: C:\Program Files\Custom Utilities\StringFinder.exe
+For example: robin@example.com.
+:::
 
 <br />
 
-👎 **Not recommended**
-> Do not declare types in the initialization list.
+다음은 실행 파일 경로 입력 오류를 설명하는 예시입니다:
 
-👍 **Recommended**
-> Do not declare types in the initialization list. Use calls instead, such as 'BankAccount(owner, IdNum, openDate)' rather than 'BankAccount(string owner, string IdNum, Date openDate)'
+:::danger[Not recommended]
+Invalid input.
+:::
+
+:::tip[Recommended]
+Enter the pathname of a Windows executable file. An executable file ordinarily ends with the .exe suffix. 
+
+For example: C:\Program Files\Custom Utilities\StringFinder.exe
+:::
 
 <br />
 
-👎 **Not recommended**
-> Syntax error on token "||", "if" expected.
+다음은 초기화 리스트의 타입 선언 오류를 설명하는 예시입니다:
 
-👍 **Recommended**
-> Syntax error in the "if" condition. The condition is missing an outer pair of parentheses. Add a pair of bounding opening and closing parentheses to the condition.
->
-> For example:
-> ```js
-> // Incorrect
-> if (a > 10) || (b == 0)
->
-> // Correct  
-> if ((a > 10) || (b == 0))
-> ```
+:::danger[Not recommended]
+Do not declare types in the initialization list.
+:::
+
+:::tip[Recommended]
+Do not declare types in the initialization list. Use calls instead, such as 'BankAccount(owner, IdNum, openDate)' rather than 'BankAccount(string owner, string IdNum, Date openDate)'
+:::
+
+<br />
+
+다음은 조건문의 괄호 누락 오류를 설명하는 예시입니다:
+
+:::danger[Not recommended]
+Syntax error on token "||", "if" expected.
+:::
+
+:::tip[Recommended]
+Syntax error in the "if" condition. The condition is missing an outer pair of parentheses. Add a pair of bounding opening and closing parentheses to the condition.
+
+For example:
+```js
+// Incorrect
+if (a > 10) || (b == 0)
+
+// Correct  
+if ((a > 10) || (b == 0))
+```
+:::
 
 ## Wrap up
 
