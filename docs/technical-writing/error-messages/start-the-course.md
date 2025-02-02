@@ -1,6 +1,6 @@
 ---
 title: Start the course
-description: 오류 메시지 작성의 필요성에 대해 다룹니다.
+description: 명확한 오류 메시지 작성의 필요성에 대해 다룹니다.
 sidebar_position: 0
 tags:
   - technical-writing
@@ -114,7 +114,7 @@ API 구현이 백엔드에서 발생하는 문제의 근본 원인을 간과해�
 다음 장에서는 실제로 도움이 되는 오류 메시지를 작성하는 방법에 대해 자세히 알아보겠습니다.
 
 
-### Reference
+### References
 - [Google Tech Writing Error Messages Course](https://developers.google.com/tech-writing/error-messages)
 - [Google AIP Error Model](https://google.aip.dev/193)
 - [Google Cloud API Design Guide - Errors](https://cloud.google.com/apis/design/errors?hl=ko)
