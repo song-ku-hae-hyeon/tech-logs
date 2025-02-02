@@ -1,7 +1,7 @@
 ---
 title: Write Clearly
 description: 에러메시지를 명확히 작성하는 방식을 다룹니다.
-sidebar_position: 2
+sidebar_position: 3
 tags:
   - technical-writing
 ---
