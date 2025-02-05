@@ -1,7 +1,7 @@
 ---
 title: Additionals for BE engineers
 description: 백엔드 엔지니어를 위한 추가 가이드를 소개합니다.
-sidebar_position: 3
+sidebar_position: 4
 tags:
   - technical-writing
 ---
