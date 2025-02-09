@@ -68,4 +68,4 @@ To alter the usual flow of a loop, call one of the following statements:
 
 ### Reference
 
-- [Words | Technical Writing | Google for Developers](https://developers.google.com/tech-writing/one/words)
+- [Short Sentences | Technical Writing | Google for Developers](https://developers.google.com/tech-writing/one/short-sentences)

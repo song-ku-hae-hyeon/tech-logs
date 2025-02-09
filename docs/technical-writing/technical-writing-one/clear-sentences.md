@@ -50,4 +50,4 @@ Setting this flag makes the application run 225-250% faster.
 
 ### Reference
 
-- [Words | Technical Writing | Google for Developers](https://developers.google.com/tech-writing/one/words)
+- [Clear Sentences | Technical Writing | Google for Developers](https://developers.google.com/tech-writing/one/clear-sentences)

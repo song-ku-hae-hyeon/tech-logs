@@ -66,4 +66,4 @@ tags:
 
 ### Reference
 
-- [Words | Technical Writing | Google for Developers](https://developers.google.com/tech-writing/one/words)
+- [Active Voice | Technical Writing | Google for Developers](https://developers.google.com/tech-writing/one/active-voice)
