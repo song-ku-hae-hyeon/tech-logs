@@ -12,7 +12,8 @@
 
 | Topic                | Schedule      | Reference                                                    |
 | -------------------- | ------------- | ------------------------------------------------------------ |
-| Technical Writing    | 24.11 ~       | [Link](https://developers.google.com/tech-writing/overview)  |
+| Unit Test            | 25.01 ~       | [Link](https://www.gilbut.co.kr/book/view?bookcode=BN004314) |
+| Technical Writing    | 24.11 ~ 25.01 | [Link](https://developers.google.com/tech-writing/overview)  |
 | Docker               | 24.06 ~ 24.11 | [Link](https://www.yes24.com/Product/Goods/108431011)        |
 | Design Pattern       | 24.01 ~ 24.06 | [Link](https://refactoring.guru/ko)                          |
 | Chrome Extension     | 23.01 ~ 24.01 | [Link](https://github.com/song-ku-hae-hyeon/BTB)             |
