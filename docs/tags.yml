@@ -7,3 +7,8 @@ unit-test:
   label: "Unit Test"
   permalink: "/unit-test"
   description: "Docs related to the Unit Test"
+
+large-scale-services:
+  label: "Large-Scale Services"
+  permalink: "/large-scale-services"
+  description: "Docs related to the Large-Scale Services"
