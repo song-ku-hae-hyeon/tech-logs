@@ -1,0 +1,4 @@
+interface:
+  display_name: "Study Note Writer"
+  short_description: "학습 원문을 도큐사우르스 문서로 정리"
+  default_prompt: "Use $study-note-docusaurus-writer to turn my study notes into a Docusaurus markdown file with category, metadata, references, and validation."
