@@ -1,7 +1,7 @@
 ---
 slug: welcome
 title: Welcome
-authors: [ingong, harry]
+authors: [ingong, harry, kukucorn, hyeonmin]
 tags: [facebook, hello, docusaurus]
 ---
 
