@@ -12,3 +12,8 @@ large-scale-services:
   label: "Large-Scale Services"
   permalink: "/large-scale-services"
   description: "Docs related to the Large-Scale Services"
+
+design-pattern:
+  label: "Design Pattern"
+  permalink: "/design-pattern"
+  description: "Docs related to the Design Pattern"

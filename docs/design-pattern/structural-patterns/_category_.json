@@ -1,0 +1,8 @@
+{
+  "label": "Structural Patterns",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "객체와 클래스를 조합하는 구조 패턴을 정리합니다."
+  }
+}

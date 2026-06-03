@@ -1,0 +1,8 @@
+{
+  "label": "Behavioral Patterns",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "객체 사이의 책임 분배와 상호작용을 다루는 행동 패턴을 정리합니다."
+  }
+}

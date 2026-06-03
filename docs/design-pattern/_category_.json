@@ -1,0 +1,8 @@
+{
+  "label": "Design Pattern",
+  "position": 4,
+  "link": {
+    "type": "generated-index",
+    "description": "GoF 디자인 패턴의 생성, 구조, 행동 패턴을 정리합니다."
+  }
+}
