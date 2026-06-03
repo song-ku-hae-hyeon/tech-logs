@@ -1,10 +1,12 @@
 import clsx from "clsx";
 import Heading from "@theme/Heading";
+import useBaseUrl from "@docusaurus/useBaseUrl";
 import styles from "./styles.module.css";
 
 type FeatureItem = {
   title: string;
-  Svg: React.ComponentType<React.ComponentProps<"svg">>;
+  Svg?: React.ComponentType<React.ComponentProps<"svg">>;
+  imageSrc?: string;
   description: React.ReactNode;
 };
 
@@ -33,13 +35,29 @@ const FeatureList: FeatureItem[] = [
       </>
     ),
   },
+  {
+    title: "Large Scale Service",
+    imageSrc: "img/large-scale-service.svg",
+    description: (
+      <>
+        대규모 서비스를 구성하는 서버 인프라, 데이터 처리, 안정성 확보 전략을
+        학습합니다.
+      </>
+    ),
+  },
 ];
 
-function Feature({ title, Svg, description }: FeatureItem) {
+function Feature({ title, Svg, imageSrc, description }: FeatureItem) {
+  const resolvedImageSrc = useBaseUrl(imageSrc);
+
   return (
-    <div className={clsx("col col--4")}>
+    <div className={clsx("col col--3")}>
       <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
+        {Svg ? (
+          <Svg className={styles.featureImage} role="img" />
+        ) : (
+          <img className={styles.featureImage} src={resolvedImageSrc} alt="" />
+        )}
       </div>
       <div className="text--center padding-horiz--md">
         <Heading as="h3">{title}</Heading>
