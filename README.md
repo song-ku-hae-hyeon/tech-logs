@@ -10,15 +10,19 @@
 
 현재까지 진행한 스터디 목록입니다.
 
-| Topic                | Schedule      | Reference                                                    |
-| -------------------- | ------------- | ------------------------------------------------------------ |
-| Unit Test            | 25.01 ~       | [Link](https://www.gilbut.co.kr/book/view?bookcode=BN004314) |
-| Technical Writing    | 24.11 ~ 25.01 | [Link](https://developers.google.com/tech-writing/overview)  |
-| Docker               | 24.06 ~ 24.11 | [Link](https://www.yes24.com/Product/Goods/108431011)        |
-| Design Pattern       | 24.01 ~ 24.06 | [Link](https://refactoring.guru/ko)                          |
-| Chrome Extension     | 23.01 ~ 24.01 | [Link](https://github.com/song-ku-hae-hyeon/BTB)             |
-| Haskell              | 22.07 ~ 23.11 | [Link](https://wikidocs.net/book/204)                        |
-| Effective Typescript | 22.03 ~ 22.06 | [Link](https://www.yes24.com/Product/Goods/102124327)        |
+| Topic                | Schedule      | Reference |
+| -------------------- | ------------- | --------- |
+| Game Development     | 26.06 ~ 26.09 | [Link](https://js13kgames.com/2026/games) |
+| Large-Scale Services | 26.02 ~ 26.05 | [Link](https://www.yes24.com/product/goods/4667932) |
+| AI Agents            | 25.10 ~ 26.01 | [Link](https://www.yes24.com/product/goods/150701473) |
+| Software Engineering | 25.05 ~ 25.08 | [Link](https://www.hanbit.co.kr/books/소프트웨어-엔지니어-가이드북?code=E2570473158) |
+| Unit Test            | 25.01 ~ 25.04 | [Link](https://www.gilbut.co.kr/book/view?bookcode=BN004314) |
+| Technical Writing    | 24.11 ~ 25.01 | [Link](https://developers.google.com/tech-writing/overview) |
+| Docker               | 24.06 ~ 24.11 | [Link](https://www.yes24.com/Product/Goods/108431011) |
+| Design Pattern       | 24.01 ~ 24.06 | [Link](https://refactoring.guru/ko) |
+| Chrome Extension     | 23.01 ~ 24.01 | [Link](https://github.com/song-ku-hae-hyeon/BTB) |
+| Haskell              | 22.07 ~ 23.11 | [Link](https://wikidocs.net/book/204) |
+| Effective Typescript | 22.03 ~ 22.06 | [Link](https://www.yes24.com/Product/Goods/102124327) |
 | JS and Web           | 21.10 ~ 22.02 | [Link](https://github.com/song-ku-hae-hyeon/We-dont-know-JS) |
 
 ### Rules
